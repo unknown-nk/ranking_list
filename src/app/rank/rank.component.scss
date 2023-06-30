@@ -1,0 +1,19 @@
+.header{
+  height: 82px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.main {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rank-list{
+  width:315px;
+  height: 375px;
+  box-shadow: 2px 4px 4px #eee;
+  border-radius: 24px;
+}
