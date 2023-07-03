@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-rank',
   templateUrl: './rank.component.html',
-  styleUrls: ['./rank.component.scss']
+  styleUrls: ['./rank.component.scss'],
 })
 export class RankComponent implements OnInit {
+  showCard: boolean = false;
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit() {}
 }
